@@ -10,7 +10,7 @@ using std::string;
 
 using namespace boost;
 
-int main (void) {
+int client_main (void) {
 
     string raw_ip_address = "127.0.0.1";
     unsigned short port_num = 3333;

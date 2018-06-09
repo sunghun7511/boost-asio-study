@@ -27,9 +27,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>Chapter-01-기초 지식</Filter>
-    </ClCompile>
     <ClCompile Include="client.cpp">
       <Filter>Chapter-01-기초 지식\Section-02-종료점 만들기</Filter>
     </ClCompile>
@@ -47,6 +44,10 @@
     </ClCompile>
     <ClCompile Include="dns_query.cpp">
       <Filter>Chapter-01-기초 지식\Section-05-DNS 이름 해석하기</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="socket_bind.cpp">
+      <Filter>Chapter-01-기초 지식\Section-06-종료점에 소켓 바인딩하기</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -69,7 +69,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
-  <PropertyGroup />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <IncludePath>D:\Dev\C++\boost_1_67_0;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Dev\C++\boost_1_67_0\stage\lib;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -121,6 +124,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="passive_acceptor_socket.cpp" />
     <ClCompile Include="server.cpp" />
+    <ClCompile Include="socket_bind.cpp" />
     <ClCompile Include="udp_active_socket_min.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

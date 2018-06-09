@@ -3,7 +3,7 @@
 
 using namespace boost;
 
-int main (void) {
+int server_main (void) {
 
     unsigned short port_num = 3333;
 

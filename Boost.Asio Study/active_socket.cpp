@@ -3,7 +3,7 @@
 
 using namespace boost;
 
-int main (void) {
+int active_socket_main (void) {
 
     asio::io_service ios;
 

@@ -3,7 +3,7 @@
 
 using namespace boost;
 
-int main (void) {
+int passive_acceptor_socket_main (void) {
     asio::io_service ios;
     asio::ip::tcp protocol = asio::ip::tcp::v6();
 
