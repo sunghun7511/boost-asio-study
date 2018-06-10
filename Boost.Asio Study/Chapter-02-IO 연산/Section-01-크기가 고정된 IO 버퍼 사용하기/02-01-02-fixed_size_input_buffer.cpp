@@ -3,15 +3,17 @@
 #include <string>
 #include <memory>
 
-using namespace boost;
-using std::string;
+namespace fixed_size_input_buffer {
+	using namespace boost;
+	using std::string;
 
-int fixed_size_input_buffer_main(void) {
-	const size_t BUF_SIZE_BYTES = 20;
+	int main(void) {
+		const size_t BUF_SIZE_BYTES = 20;
 
-	std::unique_ptr<char[]> buf(new char[BUF_SIZE_BYTES]);
+		std::unique_ptr<char[]> buf(new char[BUF_SIZE_BYTES]);
 
-	asio::mutable_buffers_1 input_buf = asio::buffer(static_cast<void *>(buf.get()), BUF_SIZE_BYTES);
-	
-	return 0;
-}
+		asio::mutable_buffers_1 input_buf = asio::buffer(static_cast<void *>(buf.get()), BUF_SIZE_BYTES);
+
+		return 0;
+	}
+};

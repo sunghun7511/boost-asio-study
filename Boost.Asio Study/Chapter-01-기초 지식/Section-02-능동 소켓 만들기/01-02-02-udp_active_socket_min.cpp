@@ -1,21 +1,23 @@
 #include <boost/asio.hpp>
 #include <iostream>
 
-using namespace boost;
+namespace udp_active_socket_min {
+	using namespace boost;
 
-int udp_active_socket_min_main(void) {
+	int main(void) {
 
-	asio::io_service ios;
+		asio::io_service ios;
 
-	asio::ip::udp protocol = asio::ip::udp::v6();
+		asio::ip::udp protocol = asio::ip::udp::v6();
 
-	try {
-		asio::ip::udp::socket sock(ios, protocol);
+		try {
+			asio::ip::udp::socket sock(ios, protocol);
+		}
+		catch (boost::system::system_error& e) {
+			std::cout << "Error occured!\n"
+				<< "Error code : " << e.code().value() << ", Message : " << e.what();
+			return e.code().value();
+		}
+		return 0;
 	}
-	catch (boost::system::system_error& e) {
-		std::cout << "Error occured!\n"
-			<< "Error code : " << e.code().value() << ", Message : " << e.what();
-		return e.code().value();
-	}
-	return 0;
-}
+};

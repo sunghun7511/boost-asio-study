@@ -2,13 +2,15 @@
 #include <iostream>
 #include <string>
 
-using namespace boost;
-using std::string;
+namespace fixed_size_input_buffer {
+	using namespace boost;
+	using std::string;
 
-int fixed_size_input_buffer_main(void) {
-	const string buf = "Hello";
+	int main(void) {
+		const string buf = "Hello";
 
-	asio::const_buffers_1 output_buf = asio::buffer(buf);
+		asio::const_buffers_1 output_buf = asio::buffer(buf);
 
-	return 0;
-}
+		return 0;
+	}
+};
