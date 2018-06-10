@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -118,14 +118,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="active_socket.cpp" />
-    <ClCompile Include="client.cpp" />
-    <ClCompile Include="dns_query.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-02-능동 소켓 만들기\01-02-01-active_socket.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-06-소켓 연결하기\01-06-02-advance_connect_socket.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-01-종료점 만들기\01-01-01-endpoint_client.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-06-소켓 연결하기\01-06-01-connect_socket.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-04-DNS 이름 해석하기\01-04-01-dns_query.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-01-크기가 고정된 IO 버퍼 사용하기\02-01-01-fixed_size_output_buffer.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-01-크기가 고정된 IO 버퍼 사용하기\02-01-02-fixed_size_input_buffer.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-02-확장 가능한 스트림 기반 IO 버퍼 사용하기\02-02-01-asio_streambuf.cpp" />
     <ClCompile Include="main.cpp" />
-    <ClCompile Include="passive_acceptor_socket.cpp" />
-    <ClCompile Include="server.cpp" />
-    <ClCompile Include="socket_bind.cpp" />
-    <ClCompile Include="udp_active_socket_min.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-03-수동 소켓 만들기\01-03-01-passive_acceptor_socket.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-01-종료점 만들기\01-01-02-endpoint_server.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-05-종료점에 소켓 바인딩하기\01-05-01-socket_bind.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-07-연결 받아들이기\01-07-01-tcp_listen.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-02-능동 소켓 만들기\01-02-02-udp_active_socket_min.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-05-종료점에 소켓 바인딩하기\01-05-02-udp_socket_bind.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

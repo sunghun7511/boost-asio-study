@@ -1,53 +1,23 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <Filter Include="Chapter-01-기초 지식">
-      <UniqueIdentifier>{ed1e4327-02f1-4a27-b188-ed5defd2a0fb}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chapter-01-기초 지식\Section-07-소켓 연결하기">
-      <UniqueIdentifier>{54d1e659-6820-4c37-a5e0-6ba221d49a1e}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chapter-01-기초 지식\Section-06-종료점에 소켓 바인딩하기">
-      <UniqueIdentifier>{8ece1abc-2ce6-4b39-954d-d20a844ef0c7}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chapter-01-기초 지식\Section-05-DNS 이름 해석하기">
-      <UniqueIdentifier>{7d3fcffd-f400-4604-b18f-f22070f95706}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chapter-01-기초 지식\Section-04-수동 소켓 만들기">
-      <UniqueIdentifier>{28da0b41-0ccf-44e7-b30c-27f4f7b29934}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chapter-01-기초 지식\Section-03-능동 소켓 만들기">
-      <UniqueIdentifier>{462e056f-283e-40cd-975e-eff269e294e4}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chapter-01-기초 지식\Section-08-연결 받아들이기">
-      <UniqueIdentifier>{0e9da641-a2cd-4a40-8550-6996d08c4164}</UniqueIdentifier>
-    </Filter>
-    <Filter Include="Chapter-01-기초 지식\Section-02-종료점 만들기">
-      <UniqueIdentifier>{aea73c14-fc88-41fb-801b-bbbe3b8da73b}</UniqueIdentifier>
-    </Filter>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-01-종료점 만들기\01-01-01-endpoint_client.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-01-종료점 만들기\01-01-02-endpoint_server.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-02-능동 소켓 만들기\01-02-01-active_socket.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-02-능동 소켓 만들기\01-02-02-udp_active_socket_min.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-03-수동 소켓 만들기\01-03-01-passive_acceptor_socket.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-04-DNS 이름 해석하기\01-04-01-dns_query.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-05-종료점에 소켓 바인딩하기\01-05-01-socket_bind.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-05-종료점에 소켓 바인딩하기\01-05-02-udp_socket_bind.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-06-소켓 연결하기\01-06-02-advance_connect_socket.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-06-소켓 연결하기\01-06-01-connect_socket.cpp" />
+    <ClCompile Include="Chapter-01-기초 지식\Section-07-연결 받아들이기\01-07-01-tcp_listen.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-01-크기가 고정된 IO 버퍼 사용하기\02-01-01-fixed_size_output_buffer.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-01-크기가 고정된 IO 버퍼 사용하기\02-01-02-fixed_size_input_buffer.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-02-확장 가능한 스트림 기반 IO 버퍼 사용하기\02-02-01-asio_streambuf.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="client.cpp">
-      <Filter>Chapter-01-기초 지식\Section-02-종료점 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="server.cpp">
-      <Filter>Chapter-01-기초 지식\Section-02-종료점 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="active_socket.cpp">
-      <Filter>Chapter-01-기초 지식\Section-03-능동 소켓 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="udp_active_socket_min.cpp">
-      <Filter>Chapter-01-기초 지식\Section-03-능동 소켓 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="passive_acceptor_socket.cpp">
-      <Filter>Chapter-01-기초 지식\Section-04-수동 소켓 만들기</Filter>
-    </ClCompile>
-    <ClCompile Include="dns_query.cpp">
-      <Filter>Chapter-01-기초 지식\Section-05-DNS 이름 해석하기</Filter>
-    </ClCompile>
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="socket_bind.cpp">
-      <Filter>Chapter-01-기초 지식\Section-06-종료점에 소켓 바인딩하기</Filter>
-    </ClCompile>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
 </Project>
