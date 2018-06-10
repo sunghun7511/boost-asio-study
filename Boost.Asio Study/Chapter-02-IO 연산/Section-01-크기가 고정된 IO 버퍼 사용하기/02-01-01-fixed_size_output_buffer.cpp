@@ -2,7 +2,7 @@
 #include <iostream>
 #include <string>
 
-namespace fixed_size_input_buffer {
+namespace fixed_size_output_buffer {
 	using namespace boost;
 	using std::string;
 
@@ -13,4 +13,4 @@ namespace fixed_size_input_buffer {
 
 		return 0;
 	}
-};
+}

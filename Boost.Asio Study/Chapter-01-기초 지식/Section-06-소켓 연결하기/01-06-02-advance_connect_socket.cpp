@@ -34,4 +34,4 @@ namespace advance_connect_socket {
 
 		return 0;
 	}
-};
+}

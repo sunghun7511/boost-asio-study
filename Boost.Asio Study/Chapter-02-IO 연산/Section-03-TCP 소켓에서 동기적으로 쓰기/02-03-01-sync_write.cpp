@@ -45,4 +45,4 @@ namespace sync_write {
 
 		return 0;
 	}
-};
+}

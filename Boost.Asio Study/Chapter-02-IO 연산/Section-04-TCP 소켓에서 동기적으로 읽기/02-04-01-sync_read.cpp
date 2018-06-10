@@ -67,4 +67,4 @@ namespace sync_read {
 
 		return 0;
 	}
-};
+}

@@ -35,4 +35,4 @@ namespace dns_query {
 
 		return 0;
 	}
-};
+}

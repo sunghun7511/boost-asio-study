@@ -12,7 +12,7 @@ namespace active_socket {
 
 		asio::ip::tcp::socket sock(ios);
 
-	boost:system::error_code ec;
+		boost::system::error_code ec;
 
 		sock.open(protocol, ec);
 
@@ -23,4 +23,4 @@ namespace active_socket {
 		}
 		return 0;
 	}
-};
+}

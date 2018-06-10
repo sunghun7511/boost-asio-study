@@ -64,4 +64,4 @@ namespace async_write_enhanced {
 		return 0;
 	}
 
-};
+}

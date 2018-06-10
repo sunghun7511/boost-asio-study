@@ -16,4 +16,4 @@ namespace fixed_size_input_buffer {
 
 		return 0;
 	}
-};
+}

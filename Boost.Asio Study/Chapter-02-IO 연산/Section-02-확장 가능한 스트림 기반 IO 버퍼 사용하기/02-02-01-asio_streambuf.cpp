@@ -22,4 +22,4 @@ namespace asio_streambuf {
 
 		return 0;
 	}
-};
+}

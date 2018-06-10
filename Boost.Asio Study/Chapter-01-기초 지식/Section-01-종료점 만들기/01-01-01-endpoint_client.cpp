@@ -32,4 +32,4 @@ namespace endpoint_client {
 
 		return 0;
 	}
-};
+}

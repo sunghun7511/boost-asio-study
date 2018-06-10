@@ -25,4 +25,4 @@ namespace socket_bind {
 
 		return 0;
 	}
-};
+}

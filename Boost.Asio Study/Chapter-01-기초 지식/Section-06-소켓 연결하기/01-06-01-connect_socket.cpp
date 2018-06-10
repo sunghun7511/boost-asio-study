@@ -29,4 +29,4 @@ namespace connect_socket {
 
 		return 0;
 	}
-};
+}

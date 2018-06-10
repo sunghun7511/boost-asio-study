@@ -15,4 +15,4 @@ namespace endpoint_server {
 
 		return 0;
 	}
-};
+}

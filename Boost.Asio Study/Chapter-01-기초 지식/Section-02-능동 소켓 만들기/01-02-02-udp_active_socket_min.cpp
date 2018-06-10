@@ -20,4 +20,4 @@ namespace udp_active_socket_min {
 		}
 		return 0;
 	}
-};
+}
