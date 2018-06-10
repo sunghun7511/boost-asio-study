@@ -126,6 +126,10 @@
     <ClCompile Include="Chapter-02-IO 연산\Section-01-크기가 고정된 IO 버퍼 사용하기\02-01-01-fixed_size_output_buffer.cpp" />
     <ClCompile Include="Chapter-02-IO 연산\Section-01-크기가 고정된 IO 버퍼 사용하기\02-01-02-fixed_size_input_buffer.cpp" />
     <ClCompile Include="Chapter-02-IO 연산\Section-02-확장 가능한 스트림 기반 IO 버퍼 사용하기\02-02-01-asio_streambuf.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-03-TCP 소켓에서 동기적으로 쓰기\02-03-01-sync_write.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-04-TCP 소켓에서 동기적으로 읽기\02-04-01-sync_read.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-05-TCP 소켓에서 비동기적으로 쓰기\02-05-01-asnyc_write.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-05-TCP 소켓에서 비동기적으로 쓰기\02-05-02-asnyc_write_enhanced.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Chapter-01-기초 지식\Section-03-수동 소켓 만들기\01-03-01-passive_acceptor_socket.cpp" />
     <ClCompile Include="Chapter-01-기초 지식\Section-01-종료점 만들기\01-01-02-endpoint_server.cpp" />
