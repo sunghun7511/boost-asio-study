@@ -23,6 +23,11 @@
     <ClCompile Include="Chapter-02-IO 연산\Section-06-TCP 소켓에서 비동기적으로 읽기\02-06-01-asnyc_read.cpp" />
     <ClCompile Include="Chapter-02-IO 연산\Section-06-TCP 소켓에서 비동기적으로 읽기\02-06-02-asnyc_read_enhanced.cpp" />
     <ClCompile Include="Chapter-02-IO 연산\Section-07-비동기 연산 취소하기\02-07-01-cancel_async.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-08-소켓 종료하기와 닫기\02-08-01-shutdown_client.cpp" />
+    <ClCompile Include="Chapter-02-IO 연산\Section-08-소켓 종료하기와 닫기\02-08-02-shutdown_server.cpp" />
+    <ClCompile Include="Chapter-03-클라이언트 애플리케이션 구현\Section-01-동기 TCP 클라이언트 구현하기\03-01-01-sync_tcp_client.cpp" />
+    <ClCompile Include="Chapter-03-클라이언트 애플리케이션 구현\Section-02-동기 UDP 클라이언트 구현하기\03-02-01-sync_udp_client.cpp" />
+    <ClCompile Include="Chapter-03-클라이언트 애플리케이션 구현\Section-03-비동기 TCP 클라이언트 구현하기\03-03-01-multi_thread_async_tcp_client.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
