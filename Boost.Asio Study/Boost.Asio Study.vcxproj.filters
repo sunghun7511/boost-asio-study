@@ -31,6 +31,8 @@
     <ClCompile Include="Chapter-04-서버 애플리케이션 구현\Section-01-반복적 동기 TCP 서버 구현하기\04-01-01-loop_sync_server.cpp" />
     <ClCompile Include="Chapter-04-서버 애플리케이션 구현\Section-02-병렬 동기 TCP 서버\04-02-01-parallel_sync_tcp_server.cpp" />
     <ClCompile Include="Chapter-04-서버 애플리케이션 구현\Section-03-비동기 TCP 서버 구현하기\04-03-01-async_tcp_server.cpp" />
+    <ClCompile Include="Chapter-05-HTTP와 SSL TLS\Section-01-HTTP 클라이언트 애플리케이션 구현하기\05-01-01-http_client.cpp" />
+    <ClCompile Include="Chapter-05-HTTP와 SSL TLS\Section-02-HTTP 서버 애플리케이션 구현하기\05-02-01-http_server.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="ClassDiagram.cd" />
