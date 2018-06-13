@@ -70,8 +70,8 @@
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <IncludePath>D:\Dev\C++\boost_1_67_0;$(IncludePath)</IncludePath>
-    <LibraryPath>D:\Dev\C++\boost_1_67_0\stage\lib;$(LibraryPath)</LibraryPath>
+    <IncludePath>D:\Dev\C++\boost_1_67_0;D:\Dev\C\openssl-0.9.8k_X64\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\Dev\C++\boost_1_67_0\stage\lib;D:\Dev\C\openssl-0.9.8k_X64\lib;$(LibraryPath)</LibraryPath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -143,6 +143,8 @@
     <ClCompile Include="Chapter-04-서버 애플리케이션 구현\Section-03-비동기 TCP 서버 구현하기\04-03-01-async_tcp_server.cpp" />
     <ClCompile Include="Chapter-05-HTTP와 SSL TLS\Section-01-HTTP 클라이언트 애플리케이션 구현하기\05-01-01-http_client.cpp" />
     <ClCompile Include="Chapter-05-HTTP와 SSL TLS\Section-02-HTTP 서버 애플리케이션 구현하기\05-02-01-http_server.cpp" />
+    <ClCompile Include="Chapter-05-HTTP와 SSL TLS\Section-03-클라이언트 애플리케이션에서 SSL TLS 지원하기\05-03-01-ssl_sync_tcp_client.cpp" />
+    <ClCompile Include="Chapter-05-HTTP와 SSL TLS\Section-04-서버 애플리케이션에서 SSL TLS 지원하기\05-04-01-ssl_loop_sync_server.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Chapter-01-기초 지식\Section-03-수동 소켓 만들기\01-03-01-passive_acceptor_socket.cpp" />
     <ClCompile Include="Chapter-01-기초 지식\Section-01-종료점 만들기\01-01-02-endpoint_server.cpp" />
