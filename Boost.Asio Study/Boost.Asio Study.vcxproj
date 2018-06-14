@@ -145,6 +145,12 @@
     <ClCompile Include="Chapter-05-HTTP와 SSL TLS\Section-02-HTTP 서버 애플리케이션 구현하기\05-02-01-http_server.cpp" />
     <ClCompile Include="Chapter-05-HTTP와 SSL TLS\Section-03-클라이언트 애플리케이션에서 SSL TLS 지원하기\05-03-01-ssl_sync_tcp_client.cpp" />
     <ClCompile Include="Chapter-05-HTTP와 SSL TLS\Section-04-서버 애플리케이션에서 SSL TLS 지원하기\05-04-01-ssl_loop_sync_server.cpp" />
+    <ClCompile Include="Chapter-06-기타\Section-01-분산 수집 연산을 위해 결합 버퍼 사용하기\06-01-01-combination_const_buffer.cpp" />
+    <ClCompile Include="Chapter-06-기타\Section-01-분산 수집 연산을 위해 결합 버퍼 사용하기\06-01-02-combination_mutable_buffer.cpp" />
+    <ClCompile Include="Chapter-06-기타\Section-02-타이머 사용하기\06-02-01-timer.cpp" />
+    <ClCompile Include="Chapter-06-기타\Section-03-소켓 연산 설정하기와 설정 알아보기\06-03-01-socket_option.cpp" />
+    <ClCompile Include="Chapter-06-기타\Section-04-스트림 기반 IO 수행하기\06-04-01-stream_io.cpp" />
+    <ClCompile Include="Chapter-06-기타\Section-05-시간 제한 설정하기\06-05-01-stream_io_timer.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Chapter-01-기초 지식\Section-03-수동 소켓 만들기\01-03-01-passive_acceptor_socket.cpp" />
     <ClCompile Include="Chapter-01-기초 지식\Section-01-종료점 만들기\01-01-02-endpoint_server.cpp" />
